@@ -1,0 +1,21 @@
+.navigation-menu {
+    display: flex;
+    font-family: Lato-Light, sans-serif;
+    font-size: 2.5rem;
+}
+
+.navigation-menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 23px;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.navigation-menu__item_active {
+    font-family: Lato-Bold, sans-serif;
+    background-color: #1e1d1d;
+    border-top: 2px solid #ffffff;
+}

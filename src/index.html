@@ -2,37 +2,38 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="styles/index.css">
-    <meta charset="UTF-8">
     <title>ask.it</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     <body>
         <div class="wrapper">
             <header class="header">
                 <div class="container">
-                    <a href=""class="header__logo logo">
+                    <a href="" class="header__logo logo">
                         <img src="styles/icons/logo.svg" alt="logo">
                     </a>
-                    <nav class="header__menu">
-                        <div class="header__menu-item"><a href="">Home</a></div>
-                        <div class="header__menu-item"><a href="">How it works</a></div>
-                        <div class="header__menu-item"><a href="">Features</a></div>
-                        <div class="header__menu-item"><a href="">Partners</a></div>
-                        <div class="header__menu-item"><a href="">Events</a></div>
-                        <div class="header__menu-item"><a href="">About us</a></div>
+                    <nav class="header__menu navigation-menu">
+                        <a class="navigation-menu__item" href="">Home</a>
+                        <a class="navigation-menu__item navigation-menu__item_active" href="">How it works</a>
+                        <a class="navigation-menu__item" href="">Features</a>
+                        <a class="navigation-menu__item" href="">Partners</a>
+                        <a class="navigation-menu__item" href="">Events</a>
+                        <a class="navigation-menu__item" href="">About us</a>
                     </nav>
-                    <div class="header__auth-buttons">
-                        <div class="header__auth-button">
-                            <div class="header__auth-button-icon">
+                    <div class="header__auth-buttons auth-buttons">
+                        <a class="auth-buttons__auth-button" href="">
+                            <div class="auth-buttons__auth-button-icon">
                                 <img src="styles/icons/sign-in.png" alt="sign-in">
                             </div>
-                            <div class="header__auth-button-title">Log in</div>
-                        </div>
-                        <div class="header__auth-button">
-                            <div class="header__auth-button-icon">
+                            <div class="auth-buttons__auth-button-title">Log in</div>
+                        </a>
+                        <a class="auth-buttons__auth-button" href="">
+                            <div class="auth-buttons__auth-button-icon">
                                 <img src="styles/icons/avatar.png" alt="avatar">
                             </div>
-                            <div class="header__auth-button-title">Register</div>
-                        </div>
+                            <div class="auth-buttons__auth-button-title">Register</div>
+                        </a>
                     </div>
                 </div>
             </header>
