@@ -28,3 +28,9 @@
         padding: 53px 23px 58px;
     }
 }
+
+@media (max-width: 751px) {
+    .navigation-menu {
+        display: none;
+    }
+}
