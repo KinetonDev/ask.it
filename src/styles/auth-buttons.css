@@ -1,6 +1,6 @@
 .auth-buttons {
     font-family: Lato-Light, sans-serif;
-    font-size: 17px;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -20,4 +20,10 @@
 
 .auth-buttons__auth-button-title {
     color: #e6e6e6;
+}
+
+@media (max-width: 1536px) {
+    .auth-buttons {
+        font-size: 0.8rem;
+    }
 }
