@@ -1,0 +1,17 @@
+.underliner {
+    position: relative;
+    display: block;
+    border-bottom:4px solid #037693;
+    border-radius: 30px;
+    width: 18%;
+}
+
+.underliner::after {
+    position: absolute;
+    content: '';
+    display: block;
+    border-bottom:4px solid #037693;
+    border-radius: 30px;
+    width: 15%;
+    left: 110%;
+}

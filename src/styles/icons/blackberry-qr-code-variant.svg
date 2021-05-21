@@ -1,3 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
-  <image id="blackberry-qr-code-variant" width="92" height="92" xlink:href="data:image/png;base64,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"/>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<rect x="51.2" y="51.2" width="51.2" height="51.2"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M358.4,0v25.6h-25.6v25.6h25.6v102.4H384v25.6h-25.6v25.6H384h25.6v-51.2h76.8v25.6H512v-25.6V0H358.4z M486.4,128H384
+			V25.6h102.4V128z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="409.6" y="51.2" width="51.2" height="51.2"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="51.2" y="409.6" width="51.2" height="51.2"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="358.4" y="358.4" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="230.4" y="486.4" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="256" y="384" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="256" y="435.2" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="486.4" y="307.2" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect y="307.2" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect y="179.2" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon points="281.6,25.6 281.6,51.2 230.4,51.2 230.4,76.8 307.2,76.8 307.2,51.2 307.2,25.6 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M486.4,204.8v25.6h-51.2V256h-76.8v-25.6h-25.6V256h-51.2v25.6h76.8v25.6h-51.2h-25.6v-25.6H256v25.6h-25.6v-25.6h-25.6
+			v25.6h-25.6v25.6h51.2v25.6H256v-25.6h51.2v25.6h-25.6V384h25.6v51.2h25.6v25.6h25.6v-25.6h76.8V384h25.6v-25.6h-25.6v-51.2H384
+			v-25.6h51.2v25.6h25.6v-25.6h25.6V256H512v-25.6v-25.6H486.4z M409.6,332.8v76.8h-76.8v-76.8H409.6z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon points="332.8,153.6 307.2,153.6 307.2,179.2 281.6,179.2 281.6,204.8 281.6,230.4 307.2,230.4 307.2,204.8 332.8,204.8 
+			332.8,179.2 358.4,179.2 358.4,153.6 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="281.6" y="486.4" width="51.2" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="204.8" y="25.6" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="409.6" y="204.8" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="435.2" y="179.2" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="102.4" y="307.2" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M153.6,486.4V384h25.6v-25.6v-25.6h-25.6v25.6H76.8v-25.6H51.2H25.6v25.6H0V512h153.6h51.2v-25.6H153.6z M128,486.4H25.6
+			V384H128V486.4z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="153.6" y="153.6" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M179.2,0h-25.6H0v153.6h25.6v25.6h25.6v-25.6h25.6v25.6h25.6v-25.6h51.2v-51.2h25.6V76.8h-25.6V25.6h25.6h25.6V0H179.2z
+			 M128,128H25.6V25.6H128V128z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="307.2" y="76.8" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="256" width="25.6" height="25.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M307.2,153.6V128h-25.6v-25.6H256V128h-51.2v-25.6h-25.6V128v25.6h25.6v51.2H128v-25.6h-25.6v25.6H25.6v25.6h51.2V256H0
+			v25.6h76.8v25.6h25.6v-25.6H128v25.6h25.6v-25.6h51.2V256h-25.6v-25.6h25.6h25.6V256H256h25.6v-25.6H256v-25.6h-25.6v-51.2H307.2z
+			 M153.6,256h-51.2v-25.6h51.2V256z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon points="230.4,409.6 230.4,384 230.4,358.4 204.8,358.4 204.8,384 179.2,384 179.2,409.6 204.8,409.6 204.8,435.2 
+			179.2,435.2 179.2,460.8 230.4,460.8 230.4,435.2 256,435.2 256,409.6 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon points="460.8,460.8 460.8,435.2 435.2,435.2 435.2,460.8 358.4,460.8 358.4,486.4 409.6,486.4 409.6,512 435.2,512 
+			435.2,486.4 486.4,486.4 486.4,512 512,512 512,486.4 512,460.8 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon points="486.4,358.4 486.4,384 460.8,384 460.8,409.6 512,409.6 512,384 512,358.4 		"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>
