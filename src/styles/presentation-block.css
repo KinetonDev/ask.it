@@ -43,6 +43,7 @@
     font-family: Lato-Semibold, sans-serif;
     border: 2px solid #e8e9ea;
     transition-duration: 0.4s;
+    text-decoration: none;
 }
 
 .presentation-block__button:hover {
