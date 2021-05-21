@@ -1,0 +1,13 @@
+.logo {
+
+}
+
+.logo-wrapper {
+
+}
+
+@media (max-width: 751px) {
+    .logo {
+        width: 80%;
+    }
+}
