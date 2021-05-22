@@ -1,0 +1,51 @@
+.cards-list {
+    font-family: Lato-Regular;
+    text-align: center;
+
+    padding: 0 40px 0;
+}
+
+.cards-list__card {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ebb353;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: -7px;
+    width: 35%;
+}
+
+.cards-list__card-content-wrapper {
+}
+
+.cards-list__card_moved {
+    /*position: relative;*/
+    /*top: -20px;*/
+    /*right: -20px;*/
+}
+
+.cards-list__card-content {
+    background-color: #f1b451;
+    padding: 10px;
+}
+
+
+.cards-list__card-icon-wrapper {
+
+}
+
+.cards-list__card-icon {
+    max-width: 100%;
+}
+
+.cards-list__card-title {
+
+}
+
+@media (max-width: 1536px) {
+
+}
+
+@media (max-width: 751px) {
+
+}
