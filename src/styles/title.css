@@ -11,8 +11,8 @@
     }
 }
 
-@media (max-width: 1536px) {
+@media (max-width: 751px) {
     .title {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
