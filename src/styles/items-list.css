@@ -3,7 +3,7 @@
     font-size: 2rem;
     color: #037693;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .items-list_lato-bold {
@@ -23,7 +23,7 @@
 }
 
 .items-list__item_extended {
-    flex-basis: 33%;
+    flex-basis: 30%;
 }
 
 .items-list__item-info {
