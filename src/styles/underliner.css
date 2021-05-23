@@ -3,7 +3,8 @@
     display: block;
     border-bottom:4px solid #037693;
     border-radius: 30px;
-    width: 18%;
+    width: 101px;
+    margin-top: 10px;
 }
 
 .underliner::after {
@@ -12,6 +13,39 @@
     display: block;
     border-bottom:4px solid #037693;
     border-radius: 30px;
-    width: 15%;
+    width: 16px;
     left: 110%;
+}
+
+.underliner_white {
+    border-color: #ffffff;
+}
+
+.underliner_white::after {
+    border-color: #ffffff;
+}
+
+.underliner_reversed {
+    transform: rotate(180deg);
+    margin-left: auto;
+}
+
+@media (max-width: 1536px) {
+    .underliner {
+        width: 86px;
+    }
+
+    .underliner::after {
+        width: 13px;
+    }
+}
+
+@media (max-width: 751px) {
+    .underliner {
+        width: 85px;
+    }
+
+    .underliner::after {
+        width: 9px;
+    }
 }
