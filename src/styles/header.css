@@ -59,6 +59,6 @@
     }
 
     .header__logo {
-        display: block;
+        display: flex;
     }
 }
