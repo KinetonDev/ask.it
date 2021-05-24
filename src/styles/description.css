@@ -1,0 +1,33 @@
+.description__title {
+    font-size: 4rem;
+    font-family: Lato-Bold;
+    width: 400px;
+}
+
+.description__subtitle {
+    font-size: 2rem;
+    font-family: Lato-Medium;
+    margin-top: 54px;
+}
+
+.description__subtitle::after {
+    content: '';
+    display: inline-block;
+    width: 12%;
+    border-bottom: 2px solid #ffffff;
+}
+
+.description__text {
+    margin: 86px 0 64px;
+    font-size: 1.5rem;
+    font-family: Lato-Light;
+    line-height: 1.7rem;
+}
+
+.description__text-paragraph {
+    padding-bottom: 39px;
+}
+
+.description__text-paragraph:last-child {
+    padding-bottom: 0;
+}
