@@ -1,51 +1,344 @@
 .cards-list {
-    font-family: Lato-Regular;
+    display: flex;
     text-align: center;
-
-    padding: 0 40px 0;
+    justify-content: space-between;
 }
 
-.cards-list__card {
-    display: inline-block;
-    padding: 10px;
-    border: 1px solid #ebb353;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    margin: -7px;
-    width: 35%;
+.cards-list__item {
+    background-color: #ffffff;
+    position: relative;
+    flex-basis: 33%;
 }
 
-.cards-list__card-content-wrapper {
+.cards-list__item-wrapper{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
 }
 
-.cards-list__card_moved {
-    /*position: relative;*/
-    /*top: -20px;*/
-    /*right: -20px;*/
+.cards-list__item_emphasized {
+    box-shadow: 0px 0px 20px gray;
+    z-index: 100;
+    transform: scale(1.1);
 }
 
-.cards-list__card-content {
-    background-color: #f1b451;
-    padding: 10px;
+.cards-list__item-title-wrapper {
+    font-family: Lato-Light;
+    font-size: 5rem;
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 57px 0;
 }
 
-
-.cards-list__card-icon-wrapper {
-
+.cards-list__item-title {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 5.1rem;
 }
 
-.cards-list__card-icon {
+.cards-list__item-title-wrapper_first {
+    background-image: url("../static/images/Public SPeaking.png");
+}
+
+.cards-list__item-title-wrapper_first::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #68b2a9;
+    opacity: 0.9;
+}
+
+.cards-list__item-title-wrapper_second {
+    background-image: url("../static/images/Techbologic eye.png");
+}
+
+.cards-list__item-title-wrapper_second::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f47a6b;
+    opacity: 0.9;
+}
+
+.cards-list__item-title-wrapper_third {
+    background-image: url("../static/images/Meetup.png");
+}
+
+.cards-list__item-title-wrapper_third::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2b47c;
+    opacity: 0.9;
+}
+
+.cards-list__emphasized-word {
+    font-family: Lato-Bold;
+}
+
+.cards-list__item-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 95px;
+}
+
+.cards-list__horizontal-line {
+    margin-top: 3px;
+    width: 100%;
+    border-bottom: 4px solid black;
+}
+
+.cards-list__horizontal-line_red {
+    border-color: #f47a6b;
+}
+
+.cards-list__horizontal-line_green {
+    border-color: #68b2a9;
+}
+
+.cards-list__horizontal-line_orange {
+    border-color: #f2b47c;
+}
+
+.cards-list__item-icon-wrapper {
+    height: 114px;
+    width: 114px;
+    margin: 12px auto 13px;
+}
+
+.cards-list__item-icon {
     max-width: 100%;
 }
 
-.cards-list__card-title {
+.cards-list__item-icon_green {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(10%) saturate(1821%) hue-rotate(123deg) brightness(94%) contrast(86%);
+}
 
+.cards-list__item-icon_red {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(69%) saturate(564%) hue-rotate(318deg) brightness(97%) contrast(95%);
+}
+
+.cards-list__item-icon_orange {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(85%) saturate(1538%) hue-rotate(319deg) brightness(112%) contrast(88%);
+}
+
+.cards-list__info-paragraph {
+    font-family: Lato-Light;
+    font-size: 1.5rem;
+    line-height: 1.6rem ;
+}
+
+.cards-list__button {
+    font-family: Lato-Medium;
+    font-size: 2rem;
+    border: none;
+    border-radius: 30px;
+    padding: 7px 25px;
+    color: #ffffff;
+    margin: 27px 0 62px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.cards-list__button:hover {
+    background-color: gray;
+}
+
+.cards-list__button:focus {
+    background-color: gray;
+    outline: none;
+}
+
+.cards-list__button_green {
+    background-color: #4ca59a;
+}
+
+.cards-list__button_red {
+    background-color: #f26250;
+}
+
+.cards-list__button_orange {
+    background-color: #f0a765;
 }
 
 @media (max-width: 1536px) {
+    .cards-list__item {
+        flex-basis: 31%;
+    }
 
+    .cards-list__item-title-wrapper {
+        font-size: 3rem;
+    }
+
+    .cards-list__emphasized-word {
+        font-size: 3.3rem;
+    }
+
+    .cards-list__item-icon-wrapper {
+        height: 75px;
+        width: 75px;
+        margin: 10px auto 12px;
+    }
+
+    .cards-list__item-info {
+        padding: 0 50px;
+    }
+
+    .cards-list__info-paragraph {
+        font-size: 1rem;
+    }
+
+    .cards-list__button {
+        font-size: 1.4rem;
+        margin: 21px 0 33px;
+    }
+
+    .cards-list__item-title-wrapper {
+        padding: 33px 0;
+    }
 }
 
 @media (max-width: 751px) {
+    .cards-list {
+        flex-direction: column;
+    }
 
+    .cards-list__item_emphasized {
+        box-shadow: none;
+        z-index: 0;
+        transform: scale(1.0);
+    }
+
+    .cards-list__horizontal-line {
+        display: none;
+    }
+
+    .cards-list__item-title-wrapper {
+        background-image: none;
+    }
+
+    .cards-list__item {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cards-list__item_first {
+        background-image: url("../static/images/Public SPeaking.png");
+        order: 3;
+    }
+
+    .cards-list__item_second {
+        background-image: url("../static/images/Techbologic eye.png");
+        order: 1;
+    }
+
+    .cards-list__item_third {
+        background-image: url("../static/images/Meetup.png");
+        order: 2;
+    }
+
+    .cards-list__info-paragraph {
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+
+    .cards-list__item-info {
+        flex-direction: row;
+    }
+
+    .cards-list__item_first::after {
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #68b2a9;
+        opacity: 0.9;
+    }
+
+    .cards-list__item_second::after {
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f47a6b;
+        opacity: 0.9;
+    }
+
+    .cards-list__item_third::after {
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f2b47c;
+        opacity: 0.9;
+    }
+
+    .cards-list__item-wrapper{
+        z-index: 10000;
+        align-items: stretch;
+    }
+
+    .cards-list__item-icon {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2782%) hue-rotate(354deg) brightness(112%) contrast(101%) ;
+    }
+
+    .cards-list__item-title-wrapper_first::after {
+        opacity: 0;
+    }
+
+    .cards-list__item-title-wrapper_second::after {
+        opacity: 0;
+    }
+
+    .cards-list__item-title-wrapper_third::after {
+        opacity: 0;
+    }
+
+    .cards-list__button {
+        align-self: center;
+        background-color: #ffffff;
+    }
+
+    .cards-list__button_green {
+        color: #4ca59a;
+    }
+
+    .cards-list__button_red {
+        color: #f26250;
+    }
+
+    .cards-list__button_orange {
+        color: #f0a765;
+    }
+
+    .cards-list__item-icon-wrapper {
+        flex-basis: 30%;
+        margin-right: 7px;
+    }
+
+    .cards-list__item-icon {
+        max-height: 100%;
+    }
 }

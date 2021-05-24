@@ -1,0 +1,38 @@
+.events-block {
+    background-color: #e8e8e8;
+}
+
+.events-block-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-block__title {
+    margin-top: 91px;
+}
+
+.events-block__content {
+    margin: 122px 0 88px;
+}
+
+
+@media (max-width: 1536px) {
+    .events-block-wrapper {
+        max-width: 96%;
+    }
+}
+
+@media (max-width: 751px) {
+    .events-block-wrapper {
+        max-width: 100%;
+    }
+
+    .events-block__title {
+        display: none;
+    }
+
+    .events-block__content {
+        margin: 0;
+    }
+}
