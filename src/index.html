@@ -312,57 +312,61 @@
             </div>
         </section>
         <footer class="footer">
-            <div class="container">
+            <div class="container footer-wrapper">
                 <div class="footer__content">
-                    <div class="footer__info-about">
-                        <div class="footer__info-about-icon logo">
-                            <img src="styles/icons/logo.svg" alt="logo">
+                    <div class="footer__company-description company-description">
+                        <div class="company-description__logo logo-wrapper">
+                            <img class="logo logo_white" src="styles/icons/logo.svg" alt="logo">
                         </div>
-                        <p class="footer__info-about-content">We are AskVote.io. We are a online
+                        <p class="company-description__content">We are AskVote.io. We are a online
                             platform for operating events effectively.
                             We're working on a web application for facilitating anonymous questions and answers sessions. The application is to be used mainly by corporate and government customers.  </p>
                     </div>
-                    <div class="footer__useful-links">
-                        <div class="footer__item-title">Useful links</div>
-                        <ul class="footer__useful-links-list">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">How it works</a></li>
-                            <li><a href="">Terms and conditions</a></li>
-                            <li><a href="">Cookies policy</a></li>
-                            <li><a href="">Contact us</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Event list</a></li>
-                        </ul>
+                    <div class="footer__links">
+                        <div class="footer__useful-links actions-list">
+                            <div class="actions-list__title">Useful links</div>
+                            <ul class="actions-list__items-list">
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Home</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">How it works</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Terms and conditions</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Cookies policy</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Contact us</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">About us</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Features</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Event list</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__account-management actions-list">
+                            <div class="actions-list__title">My account</div>
+                            <ul class="actions-list__items-list">
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">New account</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Open a account</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Manage</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Change password</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Delete account</a></li>
+                                <li class="actions-list__item-wrapper"><a class="actions-list__item" href="">Dashboard</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="footer__account-management">
-                        <div class="footer__item-title">My account</div>
-                        <ul class="footer__account-management-actions">
-                            <li><a href="">New account</a></li>
-                            <li><a href="">Open a account</a></li>
-                            <li><a href="">Manage</a></li>
-                            <li><a href="">Change password</a></li>
-                            <li><a href="">Delete account</a></li>
-                            <li><a href="">Dashboard</a></li>
+                    <div class="footer__social social-list">
+                        <div class="social-list__title">We are social</div>
+                        <ul class="social-list__icons-list">
+                            <li class="social-list__icon-wrapper"><a href=""><img class="social-list__icon" src="styles/icons/twitter-icon.svg" alt="twitter"></a></li>
+                            <li class="social-list__icon-wrapper"><a href=""><img class="social-list__icon" src="styles/icons/pinterest-icon.svg" alt="pinterest"></a></li>
+                            <li class="social-list__icon-wrapper"><a href=""><img class="social-list__icon" src="styles/icons/linkedin-icon.svg" alt="linkedin"></a></li>
+                            <li class="social-list__icon-wrapper"><a href=""><img class="social-list__icon" src="styles/icons/facebook-icon.svg" alt="facebook"></a></li>
                         </ul>
-                    </div>
-                    <div class="footer__social">
-                        <div class="footer__item-title">We are social</div>
-                        <ul class="footer__social-networks-icons">
-                            <li><img src="styles/icons/twitter-icon.png" alt="twitter"></li>
-                            <li><img src="styles/icons/pinterest-icon.png" alt="pinterest"></li>
-                            <li><img src="styles/icons/linkedin-icon.png" alt="linkedin"></li>
-                            <li><img src="styles/icons/facebook-icon.png" alt="facebook"></li>
-                        </ul>
-                        <p class="footer__email-input-sign">Subscribe to our newsletter</p>
-                        <input type="email" class="footer__email-input" placeholder="Email address">
-                        <button class="footer__send-email-button">
-                            <img src="styles/icons/Envelope.png" alt="Send">
-                        </button>
+                        <p class="social-list__email-input-sign">Subscribe to our newsletter</p>
+                        <div class="social-list__email-input-block">
+                            <input type="email" class="social-list__email-input" placeholder="Email address">
+                            <button class="social-list__send-email-button" type="submit">
+                                <img class="social-list__envelope-icon" src="styles/icons/email.svg" alt="Send">
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
             <p class="footer__sign">© 2016 AskVote.io, all rights received</p>
+            </div>
         </footer>
     </body>
 </html>

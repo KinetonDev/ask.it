@@ -1,0 +1,106 @@
+.social-list {
+    text-align: center;
+    padding: 10px;
+}
+
+.social-list__title {
+    font-family: Lato-Regular;
+    font-size: 1.7rem;
+    margin-bottom: 40px;
+}
+
+.social-list__email-input-sign {
+    font-family: Lato-Light;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.social-list__email-input-block {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.social-list__email-input {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    font-family: Lato-Light;
+    font-size: 1.5rem;
+    min-width: 100%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.social-list__send-email-button {
+    background-color: #0d0d0d;
+    display: inline-block;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    top: 20%;
+    right: 5px;
+}
+
+.social-list__envelope-icon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2782%) hue-rotate(354deg) brightness(112%) contrast(101%);
+    max-width: 100%;
+    transition-duration: 0.4s;
+}
+
+.social-list__envelope-icon:hover {
+    filter: invert(25%) sepia(63%) saturate(2618%) hue-rotate(171deg) brightness(97%) contrast(98%);
+}
+
+.social-list__envelope-icon:focus {
+    filter: invert(25%) sepia(63%) saturate(2618%) hue-rotate(171deg) brightness(97%) contrast(98%);
+}
+
+.social-list__icons-list {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+}
+
+.social-list__icon-wrapper {
+    flex: 0 0 10%;
+}
+
+.social-list__icon {
+    max-width: 100%;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2782%) hue-rotate(354deg) brightness(112%) contrast(101%);
+    transition-duration: 0.4s;
+}
+
+.social-list__icon:hover {
+    filter: invert(25%) sepia(63%) saturate(2618%) hue-rotate(171deg) brightness(97%) contrast(98%);
+}
+
+@media (max-width: 1536px) {
+    .social-list__title {
+        font-size: 2.5rem;
+    }
+
+    .social-list__icon-wrapper {
+        flex: 0 0 7%;
+    }
+
+    .social-list__email-input-sign {
+        font-size: 1.7rem;
+    }
+
+    .social-list__send-email-button {
+        width: 50px;
+        height: 20px;
+        top: 0;
+    }
+}
+
+@media (max-width: 751px) {
+
+}
