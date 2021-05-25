@@ -9,6 +9,11 @@
     transform: rotate(-90deg);
 }
 
+.aside-title_blue {
+    border-color: #037693;
+    color: #037693;
+}
+
 .aside-title__circle {
     display: inline-block;
     background-color: #ffffff;
@@ -24,14 +29,22 @@
     width: 40px;
     height: 1px;
     border-bottom: 1px solid #ffffff;
-    position: absolute;
-    left: 24px;
-    top: 27px;
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+
+.aside-title_long-line .aside-title__circle::after {
+    width: 100px;
 }
 
 .aside-title__text {
     display: inline-block;
     margin-left: 35px;
+}
+
+.aside-title_long-line .aside-title__text {
+    margin-left: 95px;
 }
 
 .aside-title__circle_blue {

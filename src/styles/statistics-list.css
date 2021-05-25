@@ -1,0 +1,121 @@
+.statistics-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.statistics-list__statistics-item {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.statistics-list__outer-circle {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-list__outer-circle_green {
+    background-color: #a5d2cc;
+}
+
+.statistics-list__outer-circle_red {
+    background-color: #f8b0a7;
+}
+
+.statistics-list__outer-circle_orange {
+    background-color: #f7d3b2;
+}
+
+.statistics-list__inner-circle {
+    width: 58px;
+    height: 58px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.statistics-list__inner-circle_green {
+    background-color: #4ca59a;
+}
+
+.statistics-list__inner-circle_red {
+    background-color: #f26250;
+}
+
+.statistics-list__inner-circle_orange {
+    background-color: #f0a765;
+}
+
+.statistics-list__item-sign {
+    font-family: Lato-Light;
+    font-size: 2rem;
+    margin: 25px 0;
+}
+
+.statistics-list__emphasized-text {
+    font-family: Lato-Regular;
+    font-size: 3rem;
+    margin-top: 33px;
+}
+
+.statistics-list__emphasized-text_green {
+    color: #4ca59a;
+}
+
+.statistics-list__emphasized-text_red {
+    color: #f26250;
+}
+
+.statistics-list__emphasized-text_orange {
+    color: #f0a765;
+}
+
+@media (max-width: 1536px) {
+    .statistics-list__inner-circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .statistics-list__outer-circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .statistics-list__item-sign {
+        font-size: 2.7rem;
+    }
+
+    .statistics-list__emphasized-text {
+        font-size: 4.5rem;
+    }
+
+    .statistics-list__statistics-item {
+        flex-basis: 24%;
+    }
+}
+
+@media (max-width: 750px) {
+    .statistics-list__inner-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .statistics-list__outer-circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .statistics-list__emphasized-text {
+        font-size: 3rem;
+    }
+
+    .statistics-list__item-sign {
+        font-size: 2rem;
+    }
+}
