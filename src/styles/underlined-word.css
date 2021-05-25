@@ -1,0 +1,85 @@
+.underlined-word {
+    display: inline-block;
+}
+
+.underlined-word__underliner {
+    position: relative;
+    display: block;
+    border-bottom:4px solid #037693;
+    border-radius: 30px;
+    width: 101px;
+    margin-top: 10px;
+}
+
+.underlined-word__underliner::after {
+    position: absolute;
+    content: '';
+    display: block;
+    border-bottom:4px solid #037693;
+    border-radius: 30px;
+    width: 16px;
+    left: 110%;
+}
+
+.underlined-word__underliner_third-line::before {
+    position: absolute;
+    content: '';
+    display: block;
+    border-bottom:4px solid #037693;
+    border-radius: 30px;
+    width: 10px;
+    left: 130%;
+}
+
+.underlined-word__underliner_white {
+    border-color: #ffffff;
+}
+
+.underlined-word__underliner_white::after {
+    border-color: #ffffff;
+}
+
+.underlined-word__underliner_white::before {
+    border-color: #ffffff;
+}
+
+
+.underlined-word__underliner_reversed {
+    transform: rotate(180deg);
+    margin-left: auto;
+}
+
+.underlined-word__underliner_big {
+    width: 301px;
+    border-width: 8px;
+}
+
+.underlined-word__underliner_big::after {
+    border-width: 8px;
+    width: 24px;
+}
+
+.underlined-word__underliner_big::before {
+    border-width: 8px;
+    width: 16px;
+}
+
+@media (max-width: 1536px) {
+    .underlined-word__underliner {
+        width: 86px;
+    }
+
+    .underlined-word__underliner::after {
+        width: 13px;
+    }
+}
+
+@media (max-width: 751px) {
+    .underlined-word__underliner {
+        width: 85px;
+    }
+
+    .underlined-word__underliner::after {
+        width: 9px;
+    }
+}
