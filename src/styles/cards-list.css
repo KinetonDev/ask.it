@@ -197,17 +197,21 @@
 }
 
 @media (max-width: 1000px) {
+    .cards-list__item {
+        flex-basis: 27%;
+    }
+
     .cards-list__item-title-wrapper {
-        font-size: 2.55rem;
+        font-size: 2.35rem;
         padding: 25px 17px;
     }
 
     .cards-list__emphasized-word {
-        font-size: 2.8rem;
+        font-size: 2.55rem;
     }
 
     .cards-list__item-title {
-        line-height: 2.9rem;
+        line-height: 2.7rem;
     }
 }
 
