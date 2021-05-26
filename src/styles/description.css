@@ -61,6 +61,10 @@
         margin-top: 130px;
     }
 
+    .description__title_reduced-top-margin {
+        margin-top: 0px;
+    }
+
     .description__subtitle::after {
         display: block;
         margin: 15px auto 0;
@@ -72,17 +76,38 @@
 
     .description__text {
         margin: 85px 0 200px;
-        font-family: Lato-Regular;
-        letter-spacing: 1.5px;
+        letter-spacing: 2px;
     }
 }
 
 @media (max-width: 750px) {
+    .description {
+        padding-bottom: 139px;
+        width: 100%;
+    }
+
+    .description_reduced-bottom-padding {
+        padding-bottom: 40px;
+    }
+
     .description__title {
         margin-top: 60px;
     }
 
     .description__text {
-        margin: 36px 0 139px;
+        margin: 36px 0 0 0;
+    }
+
+    .description__title_small-text {
+        font-size: 2rem;
+    }
+
+    .description__subtitle_small-text {
+        font-size: 1.5rem;
+    }
+
+    .description__text_small-text {
+        font-size: 1rem;
+        line-height: 1.1rem;
     }
 }
