@@ -1,7 +1,7 @@
 .cards-list {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cards-list__item {
@@ -31,15 +31,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 57px 0;
+    padding: 57px 15px;
+    align-self: stretch;
 }
 
 .cards-list__item-title {
     position: relative;
     z-index: 1;
-    width: 80%;
-    margin: 0 auto;
     line-height: 5.1rem;
+    text-align: center;
 }
 
 .cards-list__item-title-wrapper_first {
@@ -160,11 +160,12 @@
 
 @media (max-width: 1536px) {
     .cards-list__item {
-        flex-basis: 31%;
+        flex-basis: 28%;
     }
 
     .cards-list__item-title-wrapper {
-        font-size: 3rem;
+        font-size: 3.05rem;
+        padding: 33px 35px;
     }
 
     .cards-list__emphasized-word {
@@ -190,8 +191,23 @@
         margin: 21px 0 33px;
     }
 
+    .cards-list__item-title {
+        line-height: 3.35rem;
+    }
+}
+
+@media (max-width: 1000px) {
     .cards-list__item-title-wrapper {
-        padding: 33px 0;
+        font-size: 2.55rem;
+        padding: 25px 17px;
+    }
+
+    .cards-list__emphasized-word {
+        font-size: 2.8rem;
+    }
+
+    .cards-list__item-title {
+        line-height: 2.9rem;
     }
 }
 
