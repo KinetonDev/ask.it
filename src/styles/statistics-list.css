@@ -102,20 +102,20 @@
 
 @media (max-width: 750px) {
     .statistics-list__inner-circle {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
 
     .statistics-list__outer-circle {
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
 
     .statistics-list__emphasized-text {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
     .statistics-list__item-sign {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
