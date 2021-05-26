@@ -45,6 +45,7 @@
     border-top: 2px solid white;
     background-color: transparent;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .partners-block__list-left-slider:hover {

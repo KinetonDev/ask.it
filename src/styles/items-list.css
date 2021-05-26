@@ -45,6 +45,7 @@
     display: block;
     padding: 31px;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .items-list__item-icon-block_bordered {
