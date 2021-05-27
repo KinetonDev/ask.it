@@ -62,11 +62,11 @@
     }
 
     .interaction-block__information {
-        margin-left: 87px;
+        margin-left: 0;
     }
 
     .interaction-block-wrapper {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 
