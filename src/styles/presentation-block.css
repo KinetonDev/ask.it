@@ -46,6 +46,10 @@
     text-decoration: none;
 }
 
+.presentation-block__button_no-right-border {
+    border-right: none;
+}
+
 .presentation-block__button:hover {
     color: #318da4;
     background-color: #ffffff;
