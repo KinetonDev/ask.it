@@ -16,8 +16,9 @@
     border-color: #f2b47c;
 }
 
-.horizontal-line_no-disappear {
-
+.horizontal-line_moved-to-end-of-box {
+    position: absolute;
+    top: 100%;
 }
 
 @media (max-width: 751px) {
