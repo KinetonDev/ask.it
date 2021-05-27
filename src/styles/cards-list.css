@@ -258,6 +258,7 @@
 
     .cards-list__item-info {
         flex-direction: row;
+        align-items: center;
     }
 
     .cards-list__item_first::after {
