@@ -1,0 +1,19 @@
+.title {
+    color: #037693;
+    font-size: 5rem;
+    font-family: Lato-Light;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+@media (max-width: 1536px) {
+    .title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 751px) {
+    .title {
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,46 @@
+.auth-buttons {
+    font-family: Lato-Light, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-buttons__auth-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: auto 15px;
+    text-decoration: none;
+}
+
+.auth-buttons__auth-button-icon-wrapper {
+    display: flex;
+    margin-bottom: 7px;
+    justify-content: center;
+}
+
+.auth-buttons__auth-button-icon {
+    max-width: 100%;
+}
+
+.auth-buttons__auth-button-title {
+    color: #e6e6e6;
+    white-space: nowrap;
+}
+
+@media (max-width: 1536px) {
+    .auth-buttons {
+        font-size: 0.8rem;
+    }
+
+    .auth-buttons__auth-button-icon {
+        width: 80%;
+    }
+}
+
+@media (max-width: 751px) {
+    .auth-buttons {
+        display: none;
+    }
+}

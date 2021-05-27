@@ -1,0 +1,28 @@
+.company-description {
+    text-align: center;
+    font-family: Lato-Light;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 10px 40px;
+}
+
+.company-description__logo {
+
+}
+
+.company-description__content {
+    margin-top: 50px;
+}
+
+@media (max-width: 1536px) {
+    .company-description {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+}
+
+
+
+@media (max-width: 751px) {
+
+}
